@@ -938,9 +938,9 @@ p:last-child { margin-bottom: 0; }
   width: 220px; height: 220px;
   border-radius: 50%;
   background: conic-gradient(
-    var(--accent-olive) 0% 60%,
-    var(--accent-olive-light) 60% 90%,
-    var(--bg-mid) 90% 100%
+    var(--accent-olive) 0% 65.1%,
+    var(--accent-olive-light) 65.1% 86%,
+    var(--bg-mid) 86% 100%
   );
   position: relative;
   box-shadow: var(--shadow-md);
