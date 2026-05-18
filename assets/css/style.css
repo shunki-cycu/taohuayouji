@@ -1332,13 +1332,14 @@ p:last-child { margin-bottom: 0; }
 .footer-bottom {
   padding-top: 26px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 0.82rem;
   color: var(--text-on-dark-muted);
   letter-spacing: 0.04em;
   flex-wrap: wrap;
   gap: 12px;
+  text-align: center;
 }
 
 /* === CTA Banner === */
@@ -1439,7 +1440,7 @@ p:last-child { margin-bottom: 0; }
   .hero-headline h1 { font-size: 2.4rem; }
   .page-hero h1 { font-size: 2rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
-  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .footer-bottom { flex-direction: column; align-items: center; }
   .pie { width: 200px; height: 200px; }
 }
 @media (max-width: 480px) {
