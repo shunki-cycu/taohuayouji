@@ -1519,6 +1519,7 @@ p:last-child { margin-bottom: 0; }
   .timeline-item::before { left: 56px; top: 16px; }
   .timeline-item:not(:last-child)::after { left: 62px; top: 23px; bottom: -16px; }
   .timeline-time { font-size: 0.94rem; }
+  .timeline-content { padding-left: 14px; }
   .timeline-content h4 { font-size: 1rem; }
   .timeline-content p { font-size: 0.9rem; }
   .pie-card, .funnel { padding: 24px; }
